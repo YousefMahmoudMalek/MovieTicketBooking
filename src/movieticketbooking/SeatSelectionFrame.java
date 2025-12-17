@@ -117,8 +117,7 @@ public class SeatSelectionFrame extends javax.swing.JFrame {
         }
         boolean ok = controller.reserveTickets(user, show, selected);
         if (ok) {
-            javax.swing.JOptionPane.showMessageDialog(this, "Booking complete!");
-            MainMenuFrame frame = new MainMenuFrame(user);
+            DisplayInfo frame = new DisplayInfo(user, show, selected);
             this.dispose();
             frame.setVisible(true);
         } else {

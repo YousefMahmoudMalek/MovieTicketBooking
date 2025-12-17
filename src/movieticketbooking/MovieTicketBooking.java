@@ -10,10 +10,8 @@ package movieticketbooking;
  */
 public class MovieTicketBooking {
     public static void main(String[] args) {
-       SeatSelectionFrame login = new SeatSelectionFrame();
+       LoginFrame login = new LoginFrame();
        login.setVisible(true);
        login.setResizable(false);
-       
     }
-    
 }
