@@ -1,0 +1,19 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package movieticketbooking;
+
+/**
+ *
+ * @author abdelaziz
+ */
+public class MovieTicketBooking {
+    public static void main(String[] args) {
+       SeatSelectionFrame login = new SeatSelectionFrame();
+       login.setVisible(true);
+       login.setResizable(false);
+       
+    }
+    
+}
