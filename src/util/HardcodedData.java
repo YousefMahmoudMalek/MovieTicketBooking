@@ -1,6 +1,10 @@
-package com.example.movieticket.util;
+package util;
 
-import com.example.movieticket.model.*;
+import model.ShowBuilder;
+import model.Movie;
+import model.Show;
+import model.Theater;
+import model.MovieFactory;
 import java.util.*;
 
 public class HardcodedData {

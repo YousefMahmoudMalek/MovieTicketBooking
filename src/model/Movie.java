@@ -1,4 +1,4 @@
-package com.example.movieticket.model;
+package model;
 
 public abstract class Movie {
     private final String title;

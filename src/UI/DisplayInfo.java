@@ -2,9 +2,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package movieticketbooking;
+package UI;
 
-import com.example.movieticket.model.Show;
+import model.Show;
 import javax.swing.*;
 import java.awt.*;
 import java.util.List;
@@ -68,18 +68,18 @@ public class DisplayInfo extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(245, 245, 245));
 
-        jLabel1.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 18));
+        jLabel1.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 18)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Booking Information");
 
         infoTextArea.setEditable(false);
         infoTextArea.setColumns(20);
-        infoTextArea.setFont(new java.awt.Font("Segoe UI", 0, 14));
+        infoTextArea.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         infoTextArea.setRows(5);
         jScrollPane1.setViewportView(infoTextArea);
 
         bookAgainButton.setBackground(new java.awt.Color(100, 149, 237));
-        bookAgainButton.setFont(new java.awt.Font("Segoe UI", 1, 14));
+        bookAgainButton.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         bookAgainButton.setForeground(new java.awt.Color(255, 255, 255));
         bookAgainButton.setText("Book Again");
         bookAgainButton.addActionListener(new java.awt.event.ActionListener() {
@@ -89,7 +89,7 @@ public class DisplayInfo extends javax.swing.JFrame {
         });
 
         logoutButton.setBackground(new java.awt.Color(220, 53, 69));
-        logoutButton.setFont(new java.awt.Font("Segoe UI", 1, 14));
+        logoutButton.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         logoutButton.setForeground(new java.awt.Color(255, 255, 255));
         logoutButton.setText("Logout");
         logoutButton.addActionListener(new java.awt.event.ActionListener() {
@@ -147,7 +147,7 @@ public class DisplayInfo extends javax.swing.JFrame {
     }
 
     private void logoutButtonActionPerformed(java.awt.event.ActionEvent evt) {
-        com.example.movieticket.model.SessionManager.getInstance().logout(user);
+        model.SessionManager.getInstance().logout(user);
         LoginFrame frame = new LoginFrame();
         this.dispose();
         frame.setVisible(true);

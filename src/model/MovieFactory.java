@@ -1,4 +1,7 @@
-package com.example.movieticket.model;
+package model;
+
+import movieTypes.ActionMovie;
+import movieTypes.ComedyMovie;
 
 public class MovieFactory {
     public static Movie createMovie(String genre, String title) {

@@ -1,4 +1,4 @@
-package com.example.movieticket.model;
+package model;
 
 public class Show {
     private final Movie movie;

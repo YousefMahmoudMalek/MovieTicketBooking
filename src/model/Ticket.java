@@ -1,4 +1,4 @@
-package com.example.movieticket.model;
+package model;
 
 public class Ticket implements Cloneable {
     private final String movieTitle;

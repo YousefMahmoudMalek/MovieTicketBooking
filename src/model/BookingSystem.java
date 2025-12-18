@@ -1,6 +1,6 @@
-package com.example.movieticket.model;
+package model;
 
-import com.example.movieticket.util.HardcodedData;
+import util.HardcodedData;
 import java.util.*;
 
 public class BookingSystem implements IBooking {

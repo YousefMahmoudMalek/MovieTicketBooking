@@ -2,10 +2,10 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package movieticketbooking;
+package UI;
 
-import com.example.movieticket.controller.BookingController;
-import com.example.movieticket.model.Show;
+import controller.BookingController;
+import model.Show;
 import java.util.List;
 
 /**

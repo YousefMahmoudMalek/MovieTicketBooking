@@ -1,6 +1,10 @@
-package com.example.movieticket.controller;
+package controller;
 
-import com.example.movieticket.model.*;
+import model.IBooking;
+import model.Show;
+import model.BookingSystem;
+import model.Ticket;
+import model.BookingProxy;
 import java.util.ArrayList;
 import java.util.List;
 
